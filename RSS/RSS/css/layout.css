@@ -1,0 +1,67 @@
+﻿body {
+}
+
+/* Here is the basic positioning and layout:*/
+.mainCentered {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+    padding:0;
+}
+
+header {
+    background-image:url(../images/squatch.jpg);
+    background-repeat:no-repeat;
+    height:155px;    
+}
+    header h1 {
+        margin-left:80px;
+    }
+
+#Label1 {
+    float:right;
+}
+
+#nav {
+    display:block;
+}
+
+.navItem {
+    border-radius:10px 10px;
+    margin:5px;
+}
+
+#mainContent {
+}
+
+    #mainContent section {
+        width:449px;
+    }
+
+    #mainContent article {        
+        border:1px solid green;
+        border-radius: 5px 15px;
+        margin-bottom: 2px;
+    }
+
+        #mainContent article p {
+            text-indent:10%;
+            padding:15px;
+        }
+
+        #mainContent article h3 {
+            text-align:center;
+        }
+
+    #mainContent #leftColumn {
+        float:left;
+    }
+
+    #mainContent #rightColumn {
+        float:right;
+    }
+#artWeather {
+    text-align:center;
+}
